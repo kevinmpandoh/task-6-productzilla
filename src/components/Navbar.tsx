@@ -7,7 +7,6 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center max-w-screen-lg">
         <h1 className="text-xl font-bold">My Portfolio</h1>
         <div className="space-x-10 font-bold">
-          {/* Home */}
           <NavLink
             to="/"
             end
@@ -17,8 +16,6 @@ const Navbar: React.FC = () => {
           >
             Home
           </NavLink>
-
-          {/* About */}
           <NavLink
             to="/about"
             className={({ isActive }) =>
@@ -27,8 +24,6 @@ const Navbar: React.FC = () => {
           >
             About
           </NavLink>
-
-          {/* Contact */}
           <NavLink
             to="/contact"
             className={({ isActive }) =>
