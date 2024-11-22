@@ -1,0 +1,1 @@
+![Screenshot tugas](public/image.png)
